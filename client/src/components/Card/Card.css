@@ -1,0 +1,30 @@
+
+*{
+    padding: 0;
+    margin: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+.card{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 15rem;
+    height: 20rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255,255,255, 0.060);
+    border: .1rem solid rgba(255, 255, 255, 0.060);
+    color: darkred;
+
+}
+
+.img{
+    border-radius: 20px;
+}

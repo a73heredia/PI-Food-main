@@ -1,0 +1,39 @@
+.detailCard{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 15rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255,255,255, 0.060);
+    border: .1rem solid rgba(255, 255, 255, 0.060);
+    color: darkred;
+    width: 700px;
+}
+
+.img{
+    border-radius: 8px;
+}
+
+.detailContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDetail{
+    background-color: transparent;
+    height: 50px;
+    width: 160px;
+    color: darkred;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}

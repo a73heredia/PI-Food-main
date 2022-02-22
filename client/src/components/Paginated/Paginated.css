@@ -1,0 +1,20 @@
+.btnPg{
+    border: 1px black;
+        color: black;
+        background-color: darkred;
+    /*     padding: 15px 32px; */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 12px;
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+}
+
+.btnPg:hover{
+    width: 45px;
+    height: 45px;
+}

@@ -1,0 +1,33 @@
+.input{
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin: 5px;
+    margin-right: 0.5px;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.btn1{
+    cursor: pointer;
+    background-color: transparent;
+    height: 35px;
+    width: 130px;
+    color: lightslategray;
+    font-size: 1em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 15px;
+
+}
