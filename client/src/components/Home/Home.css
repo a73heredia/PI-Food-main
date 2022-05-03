@@ -1,32 +1,42 @@
-.cards{
-    /*     display: flex;
+.cards {
+  /*     display: flex;
         flex-direction: row;
         margin: 20px;
         align-items: center;
         justify-content: center;
         width: 50%; */
-        align-items: center;
-        justify-content: space-around;
-        align-content: space-evenly;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        margin: 5px;
-    }
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-evenly;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5px;
+}
 
 .select {
-    background-color: transparent;
-    border: 2px solid red;
-    color: lightslategray;
-    padding: 12px;
-    width: 200px;
-    border: none;
-    font-size: 15px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-    -webkit-appearance: button;
-    appearance: button;
-    outline: none;
-    border-left: 1px solid darkred;
-    border-top: 1px solid darkred;
-    backdrop-filter: blur(5px);
-    border-radius: 5000px;
-  }
+  background-color: white;
+  border: 2px solid red;
+  color: lightslategray;
+  padding: 12px;
+  width: 200px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  border-left: 1px solid darkred;
+  border-top: 1px solid darkred;
+  backdrop-filter: blur(5px);
+  border-radius: 5000px;
+}
+
+.crt {
+  color: darkred;
+  font-size: 20px;
+}
+
+.crt:hover {
+  color: lightseagreen;
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
-body{
-    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-517-food-festival-grain-cereal-fabric-texture-gray-background-picture-image_1046064.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+body {
+  background-image: url("./fondo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*https://png.pngtree.com/background/20210710/original/pngtree-517-food-festival-grain-cereal-fabric-texture-gray-background-picture-image_1046064.jpg  */
